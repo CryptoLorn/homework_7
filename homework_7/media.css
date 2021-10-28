@@ -1,0 +1,71 @@
+@media screen and (max-width: 400px) {
+    .header__menu {
+        display: none;
+    }
+
+    .header__logo img {
+        width: 50px;
+    }
+
+    .wrapper {
+        max-width: 340px;
+        padding: 0 10px;
+    }
+
+    .header__top {
+        padding-top: 20px;
+    }
+
+    .nav__btn__mobile {
+        display: flex;
+    }
+
+    .header__title {
+        text-align: center;
+        margin-top: 150px;
+        margin-left: 1px;
+    }
+
+    .header__title h2 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-left: 5px;
+    }
+
+    .header__title h1 {
+        font-size: 40px;
+        line-height: 30px;
+    }
+
+    .header__main__button {
+        margin-left: 120px;
+    }
+
+    .header__title p::before, .header__title p::after {
+        display: none;
+    }
+
+    .main__top {
+        height: 300px;
+    }
+
+    .main__block {
+        column-gap: 10px;
+    }
+
+    .main__item img {
+        margin-top: 1px;
+    }
+
+    .main__item h4 {
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 5px;
+    }
+
+    .main__item p {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 14px;
+    }
+}
